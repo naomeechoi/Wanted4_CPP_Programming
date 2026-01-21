@@ -1,5 +1,5 @@
 #include <iostream>
-void DeletePointer(void* ptr)
+/*void DeletePointer(void* ptr)
 {
 	delete ptr;
 	ptr = nullptr;
@@ -10,7 +10,7 @@ void DeletePointer(void** ptr)
 	delete *ptr;
 	*ptr = nullptr;
 
-}
+}*/
 
 void DeletePointer(void*& ptr)
 {
